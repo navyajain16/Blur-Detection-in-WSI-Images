@@ -33,8 +33,7 @@ def detect_blur_fft(image, size=40, thresh=-15, vis=False):
         return (mean, mean <= thresh)
     
 import cv2
-images = "CLEARR"
-Threshold = 13
+images = "CLEARR" #path of images.
 for imagePath in paths.list_images(images):
     image = cv2.imread(imagePath)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
