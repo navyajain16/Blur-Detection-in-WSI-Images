@@ -7,7 +7,6 @@ Created on Fri Apr 23 21:04:14 2021
 
 # import the necessary packages
 from imutils import paths
-import argparse
 import cv2
 def variance_of_laplacian(image):
 	# compute the Laplacian of the image and then return the focus
