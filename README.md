@@ -1,6 +1,8 @@
 # Blur-Detection-in-WSI-Images
 This is a repository for Blur detection in sky/cloud images.
 
+This project was tested on python 3.8 and Windows 10 environment.
+
 In this paper we have proposed a method to detect blur in sky/ cloud images by use of a marker which is a stable object that does not change its position with time. 
 This marker can be cropped out from the image and then used for detection.
 
@@ -19,3 +21,6 @@ This file contains the code for laplacian operator used.
 
 ## fft.py
 This file contains the code for FFT operator used.
+
+## req.txt
+This file contains list of all the libraries required for this project.
