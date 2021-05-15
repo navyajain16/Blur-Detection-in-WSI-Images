@@ -8,23 +8,20 @@ This marker can be cropped out from the image and then used for detection.
 
 This can be done in following steps:
 
-(1) add or select an external static marker in the field of view of capturedimages.
+(1) Add or select an external static marker in the field of view of capturedimages.
 
 (2) Crop the area containing the static marker from the captured image.
 
-(2) detect if the external staticmarker is blurred or non-blurred using a blur-detection metric.
+(2) Detect if the external staticmarker is blurred or non-blurred using a blur-detection metric.
 
 We have used 2 metrics : Laplacian and Fast Fourier Transform (FFT) method.
 
 ## Scripts
 
-### Laplacian.py:
-This file contains the code for laplacian operator used.
+- ***Laplacian.py:*** This file contains the code for laplacian operator used.
 
-### fft.py:
-This file contains the code for FFT operator used.
+- ***fft.py:*** This file contains the code for FFT operator used.
 
-### req.txt:
-This file contains list of all the libraries required for this project.
+- ***req.txt:*** This file contains list of all the libraries required for this project.
 
 
