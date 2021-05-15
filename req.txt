@@ -1,0 +1,10 @@
+Following libraries are required:
+
+1. OpenCV
+This can be installed by typing the following line in anaconda or command prompt:  pip install opencv-python
+
+2. imutils
+This can be installed by typing the following line in anaconda or command prompt: pip install imutils
+
+3. Numpy
+This can be installed by typing the following line in anaconda or command prompt: pip install numpy
