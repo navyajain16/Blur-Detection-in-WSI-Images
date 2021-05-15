@@ -12,7 +12,7 @@ This can be done in following steps:
 
 (2) Crop the area containing the static marker from the captured image.
 
-(2) Detect if the external staticmarker is blurred or non-blurred using a blur-detection metric.
+(3) Detect if the external staticmarker is blurred or non-blurred using a blur-detection metric.
 
 We have used 2 metrics : Laplacian and Fast Fourier Transform (FFT) method.
 
