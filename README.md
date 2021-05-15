@@ -1,1 +1,21 @@
 # Blur-Detection-in-WSI-Images
+This is a repository for Blur detection in sky/cloud images.
+
+In this paper we have proposed a method to detect blur in sky/ cloud images by use of a marker which is a stable object that does not change its position with time. 
+This marker can be cropped out from the image and then used for detection.
+
+This can be done in following steps:
+
+(1) add an external static marker in the field of view of capturedimages.
+
+(2)  analyse  the  whole-  and  cropped-  version  (withmarker) of the captured image.
+
+(3) detect if the external staticmarker is blurred or non-blurred using a blur-detection metric.
+
+We have used 2 metrics : Laplacian and Fast Fourier Transform (FFT) method.
+
+## Laplacian.py
+This file contains the code for laplacian operator used.
+
+## fft.py
+This file contains the code for FFT operator used.
