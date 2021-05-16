@@ -13,7 +13,7 @@ def variance_of_laplacian(image):
 	# measure, which is simply the variance of the Laplacian
 	return cv2.Laplacian(image, cv2.CV_64F).var()
 
-images = "patch" # path of images
+images = "‪C:\blur detection\CLOUD" # path of images
 Threshold = 12
 
 for imagePath in paths.list_images(images):
