@@ -1,7 +1,7 @@
 # Detecting Blurred Ground-based Sky/Cloud Images
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript:
 
-> M. Jain, N. Jain, Y. H. Lee, S. Winkler, and S. Dev, Detecting Blurred Ground-based Sky/Cloud Images, *under review*.
+> M. Jain, N. Jain, Y. H. Lee, S. Winkler, and S. Dev, Detecting Blurred Ground-based Sky/Cloud Images, *Proc. IEEE AP-S Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting*, 2021.
 
 ### Executive summary
 In this paper we have proposed a method to detect blurred sky/ cloud images using an external stationary marker. This marker is a stable object that does not change its position with time, and can be seen in the field of view of the camera. We use a cropped version of the entire image containing the marker to classify the image as blurred or non-blurred. 
